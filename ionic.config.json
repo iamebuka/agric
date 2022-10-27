@@ -1,0 +1,7 @@
+{
+  "name": "agric",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
