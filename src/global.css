@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box-shadow {
+    box-shadow: 0px 4px 30px 0px #00000040;
+}
+
+.scroll-snap {
+    scroll-snap-type: x mandatory;
+}
