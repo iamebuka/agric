@@ -1,5 +1,4 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import { url } from 'inspector';
+import { IonContent, IonPage } from '@ionic/react';
 import Forcast from '../components/forcast';
 import Logo from '../components/logo';
 import './Home.css';
@@ -40,7 +39,7 @@ const Home: React.FC = () => {
               <p className='text-white text-xs font-normal mix-blend-hard-light'>Wind: 1.5km/hr</p>
             </div>
             <div className="w-1/2 rounded-xl h-60 flex flex-col items-center box-shadow pt-2">
-              <img src='../../assets/icon/head.png' className="w-20 h-20"/>
+              <img alt="" src='../../assets/icon/head.png' className="w-20 h-20"/>
               <p className="text-sm font-semibold">Dexter Okeke</p>
               <p className="text-sm font-semibold">10Ha</p>
               <p className="text-xs font-medium">Maize/Cassava</p>
@@ -62,11 +61,11 @@ const Home: React.FC = () => {
           <p className="font-bold text-sm">Tools</p>
           <div className='flex flex-wrap gap-4 mt-3'>
             <div className='flex flex-col flex-1 pt-3 pb-3 bg-[#044404] items-center rounded-[10px]'>
-              <img src="../../assets/icon/sheep.png" className='w-11 h-11'></img>
+              <img alt="" src="../../assets/icon/sheep.png" className='w-11 h-11'></img>
               <p className='text-white text-xs font-semibold text-center w-28'>Livestock Farm Activity Planner</p>
             </div>
             <div className='flex flex-col flex-1 pt-3 pb-3 bg-[#044404] items-center rounded-[10px]'>
-              <img src="../../assets/icon/crop.png" className='w-11 h-11'></img>
+              <img alt="" src="../../assets/icon/crop.png" className='w-11 h-11'></img>
               <p className='text-white text-xs font-semibold text-center w-28'>Cropping Season Activity Planner</p>
             </div>
             <div className='flex flex-col flex-1 pt-5 pb-2 gap-1 bg-[#044404] items-center rounded-[10px]'>
