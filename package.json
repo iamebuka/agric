@@ -41,8 +41,10 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "TAILWIND_MODE=watch craco start",
+    "build": "craco build",
+    "ionic:serve": "TAILWIND_MODE=watch craco start",
+    "ionic:build": "craco build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
     "eject": "react-scripts eject"
   },
@@ -65,7 +67,11 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "4.4.0"
+    "@capacitor/cli": "4.4.0",
+    "@craco/craco": "^6.4.5",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1"
   },
   "description": "An Ionic project"
 }
